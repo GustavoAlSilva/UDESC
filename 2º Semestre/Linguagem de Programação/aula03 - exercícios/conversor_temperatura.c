@@ -7,7 +7,7 @@ int main (void)
     setlocale(LC_ALL, "Portuguese");
     printf("Digite a temperatura em Celcius: ");
     scanf("%f", &c);
-    f = 9/5 * c + 32;
+    f = 1.8 * c + 32;
     k = c + 273;
     printf("\nFahrenheit: %.2f\nKelvin: %.2f", f, k);
 }
